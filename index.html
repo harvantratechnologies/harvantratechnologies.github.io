@@ -3,882 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="description"
-        content="Harvantra Technologies provides cybersecurity, cloud, IT infrastructure, SOC, penetration testing, and managed IT solutions.">
-    <meta name="keywords"
-        content="Cybersecurity, SOC, SIEM, Penetration Testing, Cloud Security, AWS, Azure, IT Solutions">
-    <meta name="author" content="Khawaja Haris Hassan">
-
-    <title>Harvantra Technologies | Secure. Innovative. Grow.</title>
-
+    <title>Harvantra Technologies | Secure. Innovate. Grow.</title>
     <link rel="stylesheet" href="style.css">
-
-    <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
 <body>
 
-<!-- ================= NAVBAR ================= -->
-
-<header class="navbar">
-    <div class="container nav-container">
-
-        <a href="#home" class="logo">
-            <span class="logo-icon">H</span>
-            <span>HARVANTRA<span class="logo-accent">.</span></span>
-        </a>
-
-        <button class="menu-toggle" id="menuToggle">
-            ☰
-        </button>
-
-        <nav id="navMenu">
-            <a href="#home">Home</a>
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="logo-container">
+            <div class="logo-box">H</div>
+            <div class="logo-text">
+                <span class="brand-name">HARVANTRA</span>
+                <span class="brand-sub">TECHNOLOGIES</span>
+            </div>
+        </div>
+        <nav class="nav-links">
             <a href="#services">Services</a>
             <a href="#about">About</a>
-            <a href="#process">Process</a>
-            <a href="#contact" class="nav-contact">Contact Us</a>
+            <a href="#founder">Founder</a>
+            <a href="#contact" class="nav-btn">Contact Us</a>
         </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
 
-    </div>
-</header>
-
-
-<!-- ================= HERO ================= -->
-
-<section id="home" class="hero">
-
-    <div class="hero-grid"></div>
-
-    <div class="container hero-container">
-
+    <!-- Hero Section -->
+    <section class="hero">
         <div class="hero-content">
-
-            <div class="badge">
-                <span class="pulse"></span>
-                Cybersecurity & IT Solutions
-            </div>
-
-            <h1>
-                Secure Your Business.
-                <span>Build Your Future.</span>
-            </h1>
-
-            <p class="hero-subtitle">
-                Enterprise-grade cybersecurity, cloud and IT solutions
-                designed to protect your business, reduce risk and enable
-                sustainable digital growth.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary">
-                    Get Started →
-                </a>
-
-                <a href="#services" class="btn btn-secondary">
-                    Explore Services
-                </a>
-            </div>
-
-            <div class="hero-trust">
-                <div>
-                    <strong>30+</strong>
-                    <span>IT & Security Services</span>
-                </div>
-
-                <div>
-                    <strong>24/7</strong>
-                    <span>Security Monitoring</span>
-                </div>
-
-                <div>
-                    <strong>Secure</strong>
-                    <span>Business First</span>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="hero-visual">
-
-            <div class="cyber-orbit orbit-one"></div>
-            <div class="cyber-orbit orbit-two"></div>
-
-            <div class="shield">
-                <div class="shield-inner">
-                    <span>✓</span>
-                </div>
-            </div>
-
-            <div class="floating-card card-one">
-                <span>●</span>
-                <div>
-                    <strong>Threat Detection</strong>
-                    <small>Active Monitoring</small>
-                </div>
-            </div>
-
-            <div class="floating-card card-two">
-                <span>◉</span>
-                <div>
-                    <strong>Cloud Security</strong>
-                    <small>AWS • Azure</small>
-                </div>
-            </div>
-
-            <div class="floating-card card-three">
-                <span>✓</span>
-                <div>
-                    <strong>System Protected</strong>
-                    <small>Security Status</small>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-
-<!-- ================= SERVICES ================= -->
-
-<section id="services" class="section services-section">
-
-    <div class="container">
-
-        <div class="section-heading">
-            <span class="section-label">WHAT WE DO</span>
-            <h2>Cybersecurity & IT Solutions</h2>
-            <p>
-                Comprehensive technology services to secure, manage and
-                scale modern businesses.
-            </p>
-        </div>
-
-
-        <!-- Cybersecurity -->
-
-        <div class="service-category">
-
-            <div class="category-title">
-                <div class="category-number">01</div>
-                <div>
-                    <h3>Cybersecurity</h3>
-                    <p>Protect your organization against modern cyber threats.</p>
-                </div>
-            </div>
-
-            <div class="services-grid">
-
-                <article class="service-card">
-                    <div class="service-icon">◉</div>
-                    <h4>Managed SOC & 24/7 Security Monitoring</h4>
-                    <p>
-                        Continuous monitoring of security events, logs and
-                        alerts to identify and respond to threats quickly.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">⌁</div>
-                    <h4>SIEM Deployment & Management</h4>
-                    <p>
-                        Deploy and manage SIEM platforms for centralized
-                        logging, correlation, alerting and security visibility.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">!</div>
-                    <h4>Vulnerability Assessment & Management</h4>
-                    <p>
-                        Identify, prioritize and remediate vulnerabilities
-                        across systems, networks and applications.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">⌖</div>
-                    <h4>Penetration Testing (VAPT)</h4>
-                    <p>
-                        Authorized security testing of applications,
-                        networks and infrastructure to discover exploitable
-                        weaknesses.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">⚡</div>
-                    <h4>Incident Response & Digital Forensics</h4>
-                    <p>
-                        Investigate security incidents, contain threats,
-                        analyze evidence and support recovery.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">⌁</div>
-                    <h4>Threat Hunting & Detection Engineering</h4>
-                    <p>
-                        Proactively search for hidden threats and develop
-                        effective security detections.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">▣</div>
-                    <h4>Endpoint Detection & Response (EDR)</h4>
-                    <p>
-                        Protect endpoints and servers against malware,
-                        ransomware and suspicious activity.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">◇</div>
-                    <h4>Network Security Assessment & Hardening</h4>
-                    <p>
-                        Assess network security controls and harden systems
-                        against unauthorized access and attacks.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">◆</div>
-                    <h4>Firewall Security & Management</h4>
-                    <p>
-                        Secure firewall configuration, rule optimization,
-                        monitoring and ongoing management.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">☁</div>
-                    <h4>Cloud Security — AWS & Azure</h4>
-                    <p>
-                        Secure cloud infrastructure, identities, workloads,
-                        storage and configurations.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">◇</div>
-                    <h4>Cloud Security Posture Management</h4>
-                    <p>
-                        Discover cloud misconfigurations and continuously
-                        improve your security posture.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">🔑</div>
-                    <h4>Identity & Access Management</h4>
-                    <p>
-                        Implement secure authentication, authorization,
-                        MFA and role-based access controls.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">◈</div>
-                    <h4>Zero Trust Security</h4>
-                    <p>
-                        Design identity-centric security based on continuous
-                        verification and least privilege.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">⌘</div>
-                    <h4>Web & API Security Testing</h4>
-                    <p>
-                        Identify security flaws in web applications and APIs
-                        before attackers can exploit them.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">▤</div>
-                    <h4>Mobile Application Security Testing</h4>
-                    <p>
-                        Security assessment of Android and iOS applications
-                        to identify vulnerabilities.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">△</div>
-                    <h4>Security Architecture & Risk Assessment</h4>
-                    <p>
-                        Design secure architectures and assess technology
-                        risks across your organization.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">✓</div>
-                    <h4>Security Compliance & GRC</h4>
-                    <p>
-                        Support security governance, risk management and
-                        compliance readiness.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">◉</div>
-                    <h4>Security Awareness & Phishing Simulation</h4>
-                    <p>
-                        Train employees to recognize phishing, social
-                        engineering and common cyber threats.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">⌁</div>
-                    <h4>Threat Intelligence & Dark-Web Monitoring</h4>
-                    <p>
-                        Monitor threat intelligence and identify exposed
-                        credentials or business information.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">▰</div>
-                    <h4>Ransomware Protection & Backup Security</h4>
-                    <p>
-                        Build resilient backup strategies and security
-                        controls against ransomware and data loss.
-                    </p>
-                </article>
-
+            <div class="tagline-badge">Secure. Innovate. Grow.</div>
+            <h1>Next-Gen Cybersecurity & IT Infrastructure Solutions</h1>
+            <p>Empowering global enterprises with elite Security Operations Center monitoring, advanced penetration testing, cloud resilience, and automated defenses.</p>
+            <div class="hero-btns">
+                <a href="#services" class="btn primary-btn">Explore Services</a>
+                <a href="#contact" class="btn secondary-btn">Get in Touch</a>
             </div>
         </div>
+    </section>
 
-
-        <!-- IT Solutions -->
-
-        <div class="service-category">
-
-            <div class="category-title">
-                <div class="category-number">02</div>
-                <div>
-                    <h3>IT / Cloud / Infrastructure</h3>
-                    <p>Reliable technology infrastructure for modern businesses.</p>
-                </div>
-            </div>
-
-            <div class="services-grid">
-
-                <article class="service-card">
-                    <div class="service-icon">☁</div>
-                    <h4>Cloud Migration & Infrastructure Management</h4>
-                    <p>
-                        Plan and migrate workloads to cloud platforms while
-                        maintaining security, performance and reliability.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">▣</div>
-                    <h4>Server Management & Hardening</h4>
-                    <p>
-                        Secure, configure and maintain Linux and Windows
-                        servers for reliable business operations.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">⌁</div>
-                    <h4>Network Design, VPN & Secure Remote Access</h4>
-                    <p>
-                        Design secure networks and remote access solutions
-                        using modern VPN technologies.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">⚙</div>
-                    <h4>DevSecOps & CI/CD Security</h4>
-                    <p>
-                        Integrate security into development pipelines,
-                        containers and software delivery processes.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">▣</div>
-                    <h4>Docker & Container Security</h4>
-                    <p>
-                        Secure containerized applications, images and
-                        deployment environments.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">◫</div>
-                    <h4>Website Security & Maintenance</h4>
-                    <p>
-                        Maintain, harden and monitor websites against
-                        malware, vulnerabilities and downtime.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">▤</div>
-                    <h4>Database Security & Management</h4>
-                    <p>
-                        Secure databases through access control, hardening,
-                        monitoring, backups and maintenance.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">↻</div>
-                    <h4>Backup & Disaster Recovery</h4>
-                    <p>
-                        Develop reliable backup and disaster recovery
-                        strategies to minimize business downtime.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">◉</div>
-                    <h4>IT Infrastructure Monitoring</h4>
-                    <p>
-                        Monitor servers, networks and critical infrastructure
-                        for performance and availability.
-                    </p>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-icon">?</div>
-                    <h4>Managed IT Support & Helpdesk</h4>
-                    <p>
-                        Remote technical support, troubleshooting and
-                        ongoing IT assistance for businesses.
-                    </p>
-                </article>
-
-            </div>
-        </div>
-
-    </div>
-</section>
-
-
-<!-- ================= WHY US ================= -->
-
-<section class="section why-section">
-
-    <div class="container">
-
-        <div class="section-heading">
-            <span class="section-label">WHY HARVANTRA</span>
-            <h2>Security Built Around Your Business</h2>
-            <p>
-                We combine cybersecurity expertise with practical IT
-                infrastructure solutions.
-            </p>
-        </div>
-
-        <div class="why-grid">
-
-            <div class="why-card">
-                <span>01</span>
-                <h3>Security First</h3>
-                <p>
-                    Security is considered from architecture to implementation
-                    rather than added as an afterthought.
-                </p>
-            </div>
-
-            <div class="why-card">
-                <span>02</span>
-                <h3>Modern Technology</h3>
-                <p>
-                    We focus on modern cloud, security monitoring and
-                    infrastructure technologies.
-                </p>
-            </div>
-
-            <div class="why-card">
-                <span>03</span>
-                <h3>Business Focused</h3>
-                <p>
-                    Our solutions are designed around real business risks,
-                    operational needs and growth.
-                </p>
-            </div>
-
-            <div class="why-card">
-                <span>04</span>
-                <h3>Long-Term Partnership</h3>
-                <p>
-                    We aim to become a trusted technology partner rather
-                    than a one-time service provider.
-                </p>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-
-<!-- ================= ABOUT / FOUNDER ================= -->
-
-<section id="about" class="section about-section">
-
-    <div class="container about-grid">
-
-        <div class="founder-visual">
-            <div class="founder-circle">
-                KH
-            </div>
-
-            <div class="founder-status">
-                <span></span>
-                Founder & CEO
-            </div>
-        </div>
-
-        <div class="about-content">
-
-            <span class="section-label">ABOUT HARVANTRA</span>
-
-            <h2>
-                Technology that protects.
-                Innovation that grows.
-            </h2>
-
-            <p>
-                Harvantra Technologies is a cybersecurity and IT solutions
-                company focused on helping businesses secure their digital
-                environments, manage modern infrastructure and grow with
-                confidence.
-            </p>
-
-            <p>
-                Our approach combines cybersecurity, cloud, networking,
-                infrastructure and managed IT services to provide practical
-                technology solutions for modern organizations.
-            </p>
-
-            <div class="founder-info">
-
-                <div>
-                    <small>FOUNDER & CEO</small>
-                    <h3>Khawaja Haris Hassan</h3>
-                </div>
-
-                <a href="https://www.linkedin.com/in/haris-hassan-65b0523a8"
-                   target="_blank"
-                   class="linkedin-btn">
-                    LinkedIn ↗
-                </a>
-
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-
-<!-- ================= PROCESS ================= -->
-
-<section id="process" class="section process-section">
-
-    <div class="container">
-
-        <div class="section-heading">
-            <span class="section-label">OUR PROCESS</span>
-            <h2>From Risk to Resilience</h2>
-            <p>
-                A structured approach to solving technology and security
-                challenges.
-            </p>
-        </div>
-
-        <div class="process-grid">
-
-            <div class="process-card">
-                <div>01</div>
-                <h3>Discover</h3>
-                <p>
-                    Understand your infrastructure, requirements and
-                    security risks.
-                </p>
-            </div>
-
-            <div class="process-card">
-                <div>02</div>
-                <h3>Assess</h3>
-                <p>
-                    Identify vulnerabilities, gaps and operational risks.
-                </p>
-            </div>
-
-            <div class="process-card">
-                <div>03</div>
-                <h3>Secure</h3>
-                <p>
-                    Implement security controls, hardening and resilient
-                    infrastructure.
-                </p>
-            </div>
-
-            <div class="process-card">
-                <div>04</div>
-                <h3>Monitor</h3>
-                <p>
-                    Continuously monitor systems and detect suspicious
-                    activity.
-                </p>
-            </div>
-
-            <div class="process-card">
-                <div>05</div>
-                <h3>Improve</h3>
-                <p>
-                    Continuously improve security and technology based on
-                    changing threats.
-                </p>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-
-<!-- ================= CTA ================= -->
-
-<section class="cta-section">
-
-    <div class="container cta-container">
-
-        <div>
-            <span class="section-label">READY TO START?</span>
-            <h2>Let's Secure Your Digital Future.</h2>
-            <p>
-                Talk to Harvantra Technologies about your cybersecurity
-                and IT requirements.
-            </p>
-        </div>
-
-        <a href="https://wa.me/923075695365?text=Hello%20Harvantra%20Technologies,%20I%20would%20like%20to%20discuss%20your%20services."
-           target="_blank"
-           class="btn btn-primary">
-            Contact on WhatsApp →
-        </a>
-
-    </div>
-</section>
-
-
-<!-- ================= CONTACT ================= -->
-
-<section id="contact" class="section contact-section">
-
-    <div class="container">
-
-        <div class="section-heading">
-            <span class="section-label">CONTACT US</span>
-            <h2>Let's Talk About Your Project</h2>
-            <p>
-                Have a cybersecurity, cloud or IT requirement?
-                Get in touch with us.
-            </p>
-        </div>
-
-        <div class="contact-grid">
-
-            <div class="contact-info">
-
-                <div class="contact-item">
-                    <div class="contact-icon">✉</div>
-                    <div>
-                        <small>COMPANY EMAIL</small>
-                        <a href="mailto:harvantratechnologies@gmail.com">
-                            harvantratechnologies@gmail.com
-                        </a>
-                    </div>
-                </div>
-
-                <div class="contact-item">
-                    <div class="contact-icon">☎</div>
-                    <div>
-                        <small>WHATSAPP / PHONE</small>
-                        <a href="https://wa.me/923075695365" target="_blank">
-                            +92 307 5695365
-                        </a>
-                    </div>
-                </div>
-
-                <div class="contact-item">
-                    <div class="contact-icon">◉</div>
-                    <div>
-                        <small>FOUNDER EMAIL</small>
-                        <a href="mailto:khharis115@gmail.com">
-                            khharis115@gmail.com
-                        </a>
-                    </div>
-                </div>
-
-                <div class="contact-item">
-                    <div class="contact-icon">in</div>
-                    <div>
-                        <small>FOUNDER LINKEDIN</small>
-                        <a href="https://www.linkedin.com/in/haris-hassan-65b0523a8"
-                           target="_blank">
-                            Khawaja Haris Hassan
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <form class="contact-form" id="contactForm">
-
-                <div class="form-row">
-
-                    <div class="form-group">
-                        <label>Your Name</label>
-                        <input type="text" id="name" placeholder="Enter your name" required>
-                    </div>
-
-                    <div class="form-group">
-                        <label>Email Address</label>
-                        <input type="email" id="email" placeholder="you@example.com" required>
-                    </div>
-
-                </div>
-
-                <div class="form-group">
-                    <label>Service Required</label>
-
-                    <select id="service" required>
-                        <option value="">Select a service</option>
-                        <option>Managed SOC</option>
-                        <option>SIEM</option>
-                        <option>Vulnerability Assessment</option>
-                        <option>Penetration Testing</option>
-                        <option>Incident Response</option>
-                        <option>Cloud Security</option>
-                        <option>IAM</option>
-                        <option>Network Security</option>
-                        <option>DevSecOps</option>
-                        <option>IT Support</option>
-                        <option>Other</option>
-                    </select>
-
-                </div>
-
-                <div class="form-group">
-                    <label>Message</label>
-
-                    <textarea id="message"
-                              rows="6"
-                              placeholder="Tell us about your requirements..."
-                              required></textarea>
-
-                </div>
-
-                <button type="submit" class="btn btn-primary form-submit">
-                    Send via WhatsApp →
-                </button>
-
-            </form>
-
-        </div>
-
-    </div>
-</section>
-
-
-<!-- ================= FOOTER ================= -->
-
-<footer>
-
-    <div class="container footer-grid">
-
-        <div class="footer-brand">
-
-            <a href="#home" class="logo">
-                <span class="logo-icon">H</span>
-                <span>HARVANTRA<span class="logo-accent">.</span></span>
-            </a>
-
-            <p>
-                Cybersecurity, cloud and IT solutions for a secure digital
-                future.
-            </p>
-
-            <strong>Secure. Innovative. Grow.</strong>
-
-        </div>
-
-        <div class="footer-links">
-            <h4>Company</h4>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#process">Our Process</a>
-            <a href="#contact">Contact</a>
-        </div>
-
-        <div class="footer-links">
-            <h4>Services</h4>
-            <a href="#services">Cybersecurity</a>
-            <a href="#services">Cloud Security</a>
-            <a href="#services">Managed SOC</a>
-            <a href="#services">IT Infrastructure</a>
-        </div>
-
-        <div class="footer-links">
-            <h4>Contact</h4>
-            <a href="mailto:harvantratechnologies@gmail.com">
-                Company Email
-            </a>
-
-            <a href="https://wa.me/923075695365" target="_blank">
-                WhatsApp
-            </a>
-
-            <a href="https://www.linkedin.com/in/haris-hassan-65b0523a8"
-               target="_blank">
-                LinkedIn
-            </a>
-        </div>
-
-    </div>
-
-    <div class="footer-bottom">
+    <!-- Services Section -->
+    <section id="services" class="services-section">
         <div class="container">
-            © <span id="year"></span> Harvantra Technologies. All rights reserved.
-            <span>Founded by Khawaja Haris Hassan.</span>
+            <h2 class="section-title">Our Core Competencies</h2>
+            <p class="section-desc">Comprehensive, high-demand technical capabilities engineered to safeguard your digital assets.</p>
+            
+            <div class="services-grid" id="servicesGrid">
+                <!-- Services will be dynamically populated or fully listed here -->
+            </div>
         </div>
-    </div>
+    </section>
 
-</footer>
+    <!-- About Company & Founder Section -->
+    <section id="about" class="about-section">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2>About Harvantra Technologies</h2>
+                <p>Harvantra Technologies is a premier cybersecurity and IT solutions firm built to combat modern digital threats. We bridge the gap between complex infrastructure security and seamless business growth. From real-time SOC monitoring to enterprise cloud hardening, we deliver uncompromised digital defense.</p>
+            </div>
+            <div class="founder-card" id="founder">
+                <div class="founder-img-placeholder"><i class="fas fa-user-shield"></i></div>
+                <h3>Khawaja Haris Hassan</h3>
+                <p class="founder-title">Founder & Principal Security Consultant</p>
+                <div class="founder-bio">
+                    Specialized in Security Operations Center analysis, threat intelligence, database administration, and resilient system architecture.
+                </div>
+                <div class="founder-socials">
+                    <a href="https://www.linkedin.com/in/haris-hassan-65b0523a8" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="mailto:khharis115@gmail.com"><i class="fas fa-envelope"></i> Direct Email</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Connect With Us</h2>
+            <p class="section-desc">Ready to secure your infrastructure? Reach out to our team instantly.</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Company Email</h4>
+                            <a href="mailto:harvantratechnologies@gmail.com">harvantratechnologies@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-user-tie"></i>
+                        <div>
+                            <h4>Founder Direct Email</h4>
+                            <a href="mailto:khharis115@gmail.com">khharis115@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp Support</h4>
+                            <a href="https://wa.me/923075695365" target="_blank">+92 307 5695365</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h4>Founder Profile</h4>
+                            <a href="https://www.linkedin.com/in/haris-hassan-65b0523a8" target="_blank">Khawaja Haris Hassan</a>
+                        </div>
+                    </div>
+                </div>
 
-<!-- WhatsApp Floating Button -->
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="How can we help you secure your enterprise?" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-<a class="whatsapp-float"
-   href="https://wa.me/923075695365"
-   target="_blank"
-   aria-label="Contact Harvantra Technologies on WhatsApp">
-    WA
-</a>
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Harvantra Technologies. All Rights Reserved. | Founder: Khawaja Haris Hassan</p>
+            <p class="footer-tagline">Secure. Innovate. Grow.</p>
+        </div>
+    </footer>
 
-
-<script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
 </html>
